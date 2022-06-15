@@ -35,3 +35,8 @@ submit.addEventListener('click', () => {
 });
 
 window.addEventListener('load', render());
+
+document.querySelector('.scoreRefresh').addEventListener('click', () => {
+  window.location.reload();
+  window.localStorage.clear();
+});
