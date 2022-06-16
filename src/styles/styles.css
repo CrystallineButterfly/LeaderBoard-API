@@ -1,96 +1,102 @@
-.header {
-  width: 100%;
-  height: 20%;
-  font-size: 2rem;
-  font-style: italic;
-  letter-spacing: 0.2em;
-  margin-left: 3rem;
-}
-
-.main {
-  display: flex;
-  width: 100%;
-}
-
-.main .scoreBoard {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-}
-
-.scoreBoardHeader {
-  display: flex;
-  height: 2.5rem;
-  position: relative;
-  align-items: center;
-}
-
-.scoreHeading {
-  position: absolute;
-  font-size: 2.4rem;
-  left: 10px;
-}
-
-.scoreRefresh {
-  position: absolute;
-  height: 1.5rem;
-  right: 10px;
-  border-radius: 100vh;
-  border: 0.5px solid grey;
-}
-
-.scoreList {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  list-style-type: none;
-  margin: 0;
+* {
   padding: 0;
-  margin-top: 2rem;
-  border: 1px solid grey;
-  border-radius: 0.4rem;
+  margin: 0;
+  font-size: 102%;
+  font-family: sans-serif;
 }
 
-.eachScore:nth-child(odd) {
-  background-color: rgb(189, 185, 185);
+h1 {
+  font-size: 3rem;
+  padding: 5rem 3rem;
 }
 
-.score {
-  width: 100%;
-  height: 2.4rem;
-}
-
-.addScores {
-  width: 40%;
+.main-body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 10px;
-  position: relative;
-  border: 1px solid grey;
+  justify-content: space-around;
 }
 
-.addScores h2 {
+.recent-scores {
+  display: flex;
+  padding: 2rem 0;
   font-size: 2rem;
 }
 
-.nameInput,
-.scoreInput {
-  height: 1.5rem;
-  width: 90%;
-  padding-left: 0.8rem;
-  margin-top: 1.5rem;
-  border-radius: 70vh;
-  border: 0.5px solid grey;
+.refresh {
+  margin-left: 4rem;
+  font-size: 1rem;
+  border: 2px solid rgb(77, 77, 77);
+  padding: 0.5rem 1rem;
+  box-shadow: 5px 5px #888;
+  transition: all 0.4s;
+}
+
+.refresh:hover,
+.refresh:active {
+  background-color: #535353;
+  color: white;
+  box-shadow: 3px 3px #888;
+}
+
+.name-box {
+  border: 5px solid rgb(78, 78, 78);
+}
+
+.name-lists {
+  list-style: none;
+}
+
+.name-list {
+  padding: 1rem;
+}
+
+.name-list:nth-child(even) {
+  background-color: rgb(221, 221, 221);
+}
+
+.naming,
+.number {
+  padding: 1rem;
+}
+
+.right-box h2 {
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.name-input,
+.score-input {
+  padding: 0.5rem;
+  border: 2px solid rgb(78, 78, 78);
 }
 
 .submit {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  width: 3.5rem;
-  margin-top: 1.2rem;
-  border-radius: 70vh;
-  border: 0.5px solid grey;
+  width: 75%;
+  align-self: flex-end;
+  font-size: 1rem;
+  border: 2px solid rgb(77, 77, 77);
+  padding: 0.5rem 1rem;
+  box-shadow: 5px 5px #888;
+  transition: all 0.4s;
+}
+
+.submit:hover,
+.submit:active {
+  background-color: #535353;
+  color: white;
+  box-shadow: 3px 3px #888;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: rgb(221, 221, 221);
+  padding: 1rem 5rem;
+  margin-top: 2rem;
 }

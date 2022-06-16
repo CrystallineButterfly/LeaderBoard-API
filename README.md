@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leader Board API project for @Microverse
 
-> Description the project.
+> This project .
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- ES6 syntax (JS)
+- HTML, CSS
+- Webpack, GIT, Vs code
 
 ## Live Demo (if available)
 
@@ -42,15 +42,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/CrystallineButterfly)
+- Twitter: [@twitterhandle](https://twitter.com/CrystAlline_k42)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Kell Mcwatt)
 
 ## 🤝 Contributing
 
@@ -64,10 +58,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thank you to 
+https://github.com/jahongiry
 
+And also to 
+https://github.com/Sanja969
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
